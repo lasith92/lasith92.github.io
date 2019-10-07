@@ -1,0 +1,369 @@
+body,
+html {
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: left;
+    background-color: #000;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.h2_title {
+    font-size: 3.2em;
+    font-weight: 550;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    color: #fff;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 1.65rem;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show > .nav-link {
+    color: #FFBD39;
+    font-weight: 600;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    font-weight: 600;
+}
+
+.hero {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .9), rgba(0, 0, 0, 0)), url(../images/banner.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 90vh;
+    padding-top: 30vh;
+    transform: skew(0deg, -4deg) translateY(-50px);
+}
+
+.intro {
+    white-space: nowrap;
+    transform: skew(0deg, 4deg) translateY(50px);
+}
+
+.intro h4 {
+    font-size: 3em;
+    font-size: 6vmin;
+    color: #FFBD39;
+    font-weight: 600;
+}
+
+.intro2 {
+    font-size: 2.5em;
+    font-size: 14vmin;
+    font-weight: 600;
+}
+
+.intro2 .name {
+    padding-top: 0;
+    color: #FFBD39;
+}
+
+.intro p {
+    font-size: 3.4em;
+    font-size: 8.7vmin;
+    font-weight: 500;
+    color: #fff;
+    margin-top: -10px;
+}
+
+.typed {
+    font-size: 8.7vmin;
+    font-weight: 600;
+}
+
+.title-s {
+    color: #FFBD39;
+    font-weight: 600;
+}
+
+.about-top {
+    padding-top: 1.5vmin;
+    font-size: 1.2em;
+}
+
+.about-info,
+.about-me {
+    padding-top: 2vh;
+    margin-top: 2vh;
+}
+
+.skills_con h3 {
+    font-size: 1em;
+    padding-top: 1rem;
+    font-weight: 700;
+}
+
+.skills {
+    padding: 1rem 0 .8rem 0;
+    font-size: 1.8em;
+}
+
+.progress {
+    background: #303030;
+    border-radius: 25px;
+}
+
+.progress-bar {
+    color: #000;
+    font-weight: 700;
+}
+
+.resume-wrap {
+    width: 100%;
+    margin-bottom: 30px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.resume_top {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.resume-wrap:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+.resume-wrap .year {
+    font-weight: 800;
+    font-size: 1.2em;
+    ;
+    color: #ffbd39;
+}
+
+.resume-wrap .location {
+    font-size: 1em;
+    font-weight: 600;
+    color: #8c8c8c;
+    text-transform: uppercase;
+}
+
+.project-des {
+    font-size: 1.2em;
+    padding-bottom: 2vh;
+}
+
+.get_in_touch {
+    background: linear-gradient(rgba(0, 0, 0, .93), rgba(0, 0, 0, .93)), url('../images/developer.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 2rem;
+}
+
+.contact_me {
+    padding-bottom: 2rem;
+    align-content: center;
+}
+
+.contact-section h5 {
+    padding-top: .3rem;
+    font-weight: 700;
+}
+
+.contact-section p {
+    padding-top: .4rem;
+    color: #8c8c8c;
+}
+
+#send:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.get_in_touch {
+    padding-top: 5rem;
+}
+
+.get_in_touch h3 {
+    padding-bottom: 1.5rem;
+}
+
+.get_in_touch p {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.contact_form .btn {
+    float: left;
+}
+
+.fas {
+    font-size: 6vw;
+    color: #FFBD39;
+    padding: 2vw;
+}
+
+.social {
+    align-content: center;
+}
+
+.fab {
+    font-size: 4vw;
+    padding: 1.5vw;
+    opacity: 0.5;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-twitter-square {
+    color: #55acee;
+}
+
+.fa-instagram {
+    color: #c32aa3;
+}
+
+.fa-skype {
+    color: #00aff0;
+}
+
+.h3_mtitle {
+    color: #FFBD39;
+    font-weight: 600;
+}
+
+.footer-section {
+    width: 100%;
+    background-color: #1a1a1a;
+    color: #808080;
+    height: 3rem;
+}
+
+
+/* waypoints animations */
+
+.wpentry1,
+.wpentry2l,
+.wpentry2r,
+.wpentry3l,
+.wpentry3r,
+.wpentry4l,
+.wpentry4r,
+.wpentry5,
+.wpentry6,
+.wpentry7,
+.wpentry8 {
+    opacity: 0;
+}
+
+.wpentry1.animated,
+.wpentry2l.animated,
+.wpentry2r.animated,
+.wpentry3l.animated,
+.wpentry3r.animated,
+.wpentry4l.animated,
+.wpentry4r.animated,
+.wpentry5.animated,
+.wpentry6.animated,
+.wpentry7.animated,
+.wpentry8.animated {
+    opacity: 1;
+}
+
+#contact .fas:hover {
+    -webkit-animation: jello 1s;
+    animation: jello 1s;
+}
+
+.fab:hover {
+    -webkit-animation: heartBeat 1s;
+    animation: heartBeat 1s;
+    opacity: 1;
+}
+
+.back-to-top {
+    background: none;
+    position: fixed;
+    z-index: 999;
+    display: none;
+    text-decoration: none;
+    right: .1vh;
+    bottom: 3vh;
+}
+
+.back-to-top i {
+    font-size: 2.5em;
+    opacity: .5;
+}
+
+.back-to-top i:hover {
+    opacity: 1;
+}
+
+.back-to-top p {
+    padding-top: 1vh;
+    font-size: .8rem;
+}
+
+@media (min-width: 990px)and (max-width: 1200px) {
+    .about-top .email {
+        font-size: .9em;
+    }
+}
+
+@media only screen and (max-device-width: 992px) {
+    .get_in_touch {
+        background-attachment: scroll;
+    }
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+
+@media (max-width:380px) {
+    body,
+    html {
+        font-size: .85em;
+    }
+    .about-img img {
+        padding-bottom: 3vh;
+    }
+}
+
+@media (min-width: 575.98px)and (max-width: 380px) {
+    .h2_title {
+        font-size: 2em;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    ...
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+    ...
+}
